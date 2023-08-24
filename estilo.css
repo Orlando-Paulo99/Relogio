@@ -1,0 +1,35 @@
+.date{
+    width: 50%;
+    background-color: black;
+    height: 20vh;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    top: 50px;
+}
+
+.hours{
+    width: 50%;
+    background-color: black;
+    height: 20vh;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    align-items: flex-start;
+    justify-content: center;
+    top: 50px;
+}
+.container{
+    background-color: red;
+}
+body{
+    background-color: #00a6fb;
+}
