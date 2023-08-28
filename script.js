@@ -1,13 +1,24 @@
+//chamando a classe da date 
 setInterval(() =>
     document.getElementById('temp').textContent=new Date().toLocaleDateString("br")
 ,1000);
 
+//rciando a função do tempo do relogio 
+const hr=document.getElementById('hours')
+const min=document.getElementById('minutos')
+const seg=document.getElementById('segundos')
 
-function time(){
-    hoje=new Date();
-    hora=hoje.getHours();
-    minuto=hoje.getMinutes();
-    segundo=hoje.getSeconds();
-    document.getElementById('hours').textContent=hora+":"+minuto+":"+segundo;
-    setTimeout(time(),500);
-}
+const relogio= setInterval(function time(){
+
+    let datToday=new Date();
+    let hours=datToday.getHours();
+    let minutos=datToday.getMinutes();
+    let segundos=datToday.getSeconds();
+
+    hr.textContent=hours;
+    min.textContent=minutos;
+    seg.textContent=segundos;
+
+})
+
+
